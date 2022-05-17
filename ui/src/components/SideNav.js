@@ -167,13 +167,13 @@ class SideNav extends Component {
               <ListItemIcon>
                 <Server />
               </ListItemIcon>
-              <ListItemText primary="Network-servers" />
+              <ListItemText primary="Network Servers" />
             </ListItem>
             <ListItem button component={Link} to="/gateway-profiles">
               <ListItemIcon>
                 <RadioTower />
               </ListItemIcon>
-              <ListItemText primary="Gateway-profiles" />
+              <ListItemText primary="Gateway Profiles" />
             </ListItem>
             <ListItem button component={Link} to="/organizations">
             <ListItemIcon>
@@ -215,33 +215,33 @@ class SideNav extends Component {
             <ListItemIcon>
               <Home />
             </ListItemIcon>
-            <ListItemText primary="Org. dashboard" />
+            <ListItemText primary="[Org] Dashboard" />
           </ListItem>
           <Admin organizationID={this.state.organization.id}>
             <ListItem button component={Link} to={`/organizations/${this.state.organization.id}/users`}>
               <ListItemIcon>
                 <Account />
               </ListItemIcon>
-              <ListItemText primary="Org. users" />
+              <ListItemText primary="[Org] Users" />
             </ListItem>
             <ListItem button component={Link} to={`/organizations/${this.state.organization.id}/api-keys`}>
               <ListItemIcon>
                 <KeyVariant />
               </ListItemIcon>
-              <ListItemText primary="Org. API keys" />
+              <ListItemText primary="[Org] API Keys" />
             </ListItem>
           </Admin>
           <ListItem button component={Link} to={`/organizations/${this.state.organization.id}/service-profiles`}>
             <ListItemIcon>
               <AccountDetails />
             </ListItemIcon>
-            <ListItemText primary="Service-profiles" />
+            <ListItemText primary="Service Profiles" />
           </ListItem>
           <ListItem button component={Link} to={`/organizations/${this.state.organization.id}/device-profiles`}>
             <ListItemIcon>
               <Tune />
             </ListItemIcon>
-            <ListItemText primary="Device-profiles" />
+            <ListItemText primary="Device Profiles" />
           </ListItem>
           {this.state.organization.canHaveGateways && <ListItem button component={Link} to={`/organizations/${this.state.organization.id}/gateways`}>
             <ListItemIcon>
