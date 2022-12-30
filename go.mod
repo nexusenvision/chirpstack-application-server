@@ -4,7 +4,7 @@ go 1.16
 
 require (
 	github.com/NickBall/go-aes-key-wrap v0.0.0-20170929221519-1c3aa3e4dfc5
-	github.com/aws/aws-sdk-go v1.26.3
+	github.com/aws/aws-sdk-go v1.33.0
 	github.com/brocaar/chirpstack-api/go/v3 v3.12.5
 	github.com/brocaar/lorawan v0.0.0-20211122090658-49524ce5fb5b
 	github.com/coreos/go-oidc v2.2.1+incompatible
