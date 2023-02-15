@@ -28,9 +28,7 @@ require (
 	github.com/pelletier/go-toml v1.6.0 // indirect
 	github.com/pkg/errors v0.9.1
 	github.com/pquerna/cachecontrol v0.0.0-20180517163645-1555304b9b35 // indirect
-	github.com/prometheus/client_golang v1.2.1
-	github.com/prometheus/client_model v0.0.0-20191202183732-d1d2010b5bee // indirect
-	github.com/prometheus/procfs v0.0.8 // indirect
+	github.com/prometheus/client_golang v1.11.1
 	github.com/robertkrimen/otto v0.0.0-20191217063420-37f8e9a2460c
 	github.com/segmentio/kafka-go v0.4.17
 	github.com/sirupsen/logrus v1.7.0
